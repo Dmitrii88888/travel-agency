@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="turagency:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>turagency</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="turagency.war">
+      <element id="artifact" artifact-name="turagency:war exploded" />
+    </root>
+  </artifact>
+</component>
